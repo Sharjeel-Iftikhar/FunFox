@@ -1,4 +1,7 @@
+
+import { Short_Stack } from "next/font/google";
 import type { Config } from "tailwindcss";
+
 
 const config: Config = {
   content: [
@@ -9,10 +12,15 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
+        'bg-image': "url('/assets/background.png')",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        
       },
+      fontFamily: {
+        Short_Stack: ["Short Stack", "sans-serif"],
+      }
     },
   },
   plugins: [],
