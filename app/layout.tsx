@@ -19,37 +19,30 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      
-      <body className={inter.className }>
-      <main className="flex flex-col items-center justify-between min-h-screen">
-      <div className="relative w-[80%] mx-auto min-h-screen" >
-      
-        <div className="absolute inset-0 z-[-10]">
-          <Image
-            src="/assets/background.png"
-            alt="background image"
-            className="w-full"
-            width={1000}
-            height={1000}
-            quality={100}
-          />
-        </div>
-       
-        <div>
-          <Header />
-          <LeftColumn/>
-        
-        {children}
-        
-        </div>
-        <Footer />  
-      </div>
-      
-    </main>
-         
-        
-        </body>
-        
+      <body className={inter.className}>
+        <main className="flex flex-col items-center justify-between ">
+            <div className="relative w-full mx-auto md:w-[80%] h-[200vh] md:min-h-screen">
+            <div className="absolute inset-0 z-[-10] ">
+              <Image
+                src="/assets/background.png"
+                alt="background image"
+                className="w-full h-full md:h-auto bg-contain bg-no-repeat bg-center"
+                width={1000}
+                height={1000}
+                quality={100}
+              />
+            </div>
+
+            <div>
+              <Header />
+              <LeftColumn />
+
+              {children}
+            </div>
+            <Footer />
+          </div>
+        </main>
+      </body>
     </html>
   );
 }
