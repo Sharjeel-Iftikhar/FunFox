@@ -3,7 +3,7 @@ import LeftColumn from './StickyColumn';
 
 const Header = () => {
   return (
-    <header className="flex justify-items-start items-center pl-5 pr-4">
+    <header className="flex justify-items-start items-center pl-5 pr-4 ">
       {/* Logo */}
       <div className="flex items-center md:gap-0 ">
         <img src="/assets/Logo.png" alt="Logo" className="md:w-full md:object-contain w-3/4 object-cover"  />

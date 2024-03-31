@@ -29,13 +29,13 @@ export default function Home() {
 
     <>
     <RightColumn secondImage="book" />
-      <div className="flex flex-col w-[85%] mx-auto gap-3 md:gap-1 ">
+      <div className="flex flex-col w-[85%] mx-auto gap-3 md:gap-1">
         <div className="bg-rose-400 rounded-3xl border-rose-300 border-dashed border-[3px] max-w-[529px] min-h-[50px] shadow-[0px_0px_11px_rgba(0,0,0,0.25)] mx-auto">
           <h1 className="text-white font-Short_Stack text-[25px] md:text-[32px] flex items-center justify-center pl-5 pr-5">
             Elements of Story Writing
           </h1>
         </div>
-        <h1 className="text-black font-Short_Stack text-[18px] md:text-[24px] flex items-center justify-start mt-[-0.5rem] md:mt-3 mb-3 leading-[29px] tracking-[0.06]">
+        <h1 className="text-black font-Short_Stack text-[18px] md:text-[24px] flex items-center justify-start mt-[-0.5rem] md:mt-3 mb-3 leading-[25px]  md:leading-[29px] tracking-[0.06]">
           Welcome to term 2 of Writers Club. Are you excited for this amazing
           journey? <br />
           Over the next week, we will be practicing the different elements of

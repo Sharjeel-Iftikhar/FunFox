@@ -6,7 +6,7 @@ export default function page() {
     <>
     <RightColumn secondImage="hint" />
       <div className="flex flex-col w-[85%] mx-auto gap-3 md:gap-1 ">
-        <h1 className="text-black font-Short_Stack text-[24px] md:text-[32px] flex items-center justify-start mt-[-0.5rem] md:mt-3 md:mb-3 mb-1 leading-[30px] md:leading-[50px] tracking-[0.06] w-[94%]">
+        <h1 className="text-black font-Short_Stack text-[24px] md:text-[32px] flex items-center justify-start mt-[-0.5rem] md:mb-1 mb-1 leading-[30px] md:leading-[40px] tracking-[0.06] w-[94%]">
           Can you figure out the definition of setting from the following
           examples?
         </h1>
@@ -39,11 +39,11 @@ export default function page() {
           </div>
         </div>
 
-        <h2 className="text-black font-Short_Stack md:text-[20px] text-[18px] md:mt-4 mt-2 ">
+        <h2 className="text-black font-Short_Stack md:text-[20px] text-[18px] md:mt-2 mt-1 ">
           So, what do you think the definition of setting is?
         </h2>
 
-        <div className="flex gap-3 items-center md:mt-8 mt-6">
+        <div className="flex gap-3 items-center md:mt-5 mt-3">
           <p className="text-black font-Short_Stack md:text-[20px] text-[14px]">
             Any guesses?
           </p>
@@ -81,7 +81,7 @@ export default function page() {
             </p>
           </div>
         </div>
-        <h2 className="text-black font-Short_Stack md:text-[20px] text-[16px] w-[98%] pt-4 md:mb-[-3.75rem] mb-1">
+        <h2 className="text-black font-Short_Stack md:text-[20px] text-[16px] w-[98%] md:mb-[-3.75rem] mb-1">
           The time of the story could be in the past, future, day, night, summer
           or winter. A story may take place in a school, a mall, a desert, an
           airplane or in a variety of other places.

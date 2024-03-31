@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <main className="flex flex-col items-center justify-between ">
-            <div className="relative w-full mx-auto md:w-[80%] h-[200vh] md:min-h-screen">
+            <div className="relative w-full mx-auto md:w-[80%] h-[200vh] md:h-[100vh]">
             <div className="absolute inset-0 z-[-10] ">
               <Image
                 src="/assets/background.png"
