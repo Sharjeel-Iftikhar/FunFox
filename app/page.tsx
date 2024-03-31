@@ -85,7 +85,7 @@ export default function Home() {
               className="w-full aspect-[8.33] max-md:max-w-full"
             />
             <div className="absolute inset-0 flex ">
-              <p className="text-black text-[14px] md:text-[24px] font-Short_Stack uppercase w-[96%] pl-7 pt-1 md:pl-10 md:pt-3">
+              <p className="text-black text-[14px] md:text-[24px] font-Short_Stack w-[96%] pl-7 pt-1 md:pl-10 md:pt-3">
               For today’s lesson, we will try to understand and practice writing the setting for our stories.<br/> 
               The setting is an important element of every fiction story.
               </p>

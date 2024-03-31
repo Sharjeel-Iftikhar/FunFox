@@ -26,7 +26,7 @@ export default function RootLayout({
               <Image
                 src="/assets/background.png"
                 alt="background image"
-                className="w-full h-full md:h-auto bg-contain bg-no-repeat bg-center"
+                className="w-full h-full md:h-[110vh] bg-contain bg-no-repeat bg-center"
                 width={1000}
                 height={1000}
                 quality={100}
@@ -39,7 +39,7 @@ export default function RootLayout({
 
               {children}
             </div>
-            <Footer />
+            {/* <Footer /> */}
           </div>
         </main>
       </body>
