@@ -81,7 +81,7 @@ export default function page() {
             </p>
           </div>
         </div>
-        <h2 className="text-black font-Short_Stack md:text-[20px] text-[16px] w-[98%] md:mb-[-3.75rem] mb-1">
+        <h2 className="text-black font-Short_Stack md:text-[20px] text-[16px] w-[98%]  mb-1">
           The time of the story could be in the past, future, day, night, summer
           or winter. A story may take place in a school, a mall, a desert, an
           airplane or in a variety of other places.
